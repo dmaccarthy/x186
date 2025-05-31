@@ -1,0 +1,3 @@
+The current time is: @@new Date()@@
+
+@@_.x@@ was a good year!

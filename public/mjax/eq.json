@@ -1,0 +1,48 @@
+{"name": "Home", "menu": [
+    {"name": "Math", "menu": [
+        {"name": "2D Shapes", "menu": [
+            {"name": "Circle Circumeference", "eq": "C = 2\\pi r"},
+            {"name": "Circle Area", "eq": "A = \\pi r^2"}
+        ]},
+        {"name": "3D Shapes", "menu": [
+            {"name": "Sphere Area", "eq": "A = 4\\pi r^2"},
+            {"name": "Sphere Volume", "eq": "V = \\frac{4\\pi}{3} r^3"}
+        ]},
+        {"name": "Trigonometry", "menu": [
+            {"name": "sin", "eq": "\\sin\\theta = \\rm\\frac{Opp}{Hyp}"},
+            {"name": "cos", "eq": "\\cos\\theta = \\rm\\frac{Adj}{Hyp}"},
+            {"name": "tan", "eq": "\\tan\\theta = \\rm\\frac{Opp}{Adj}"},
+            {"name": "Pythagoras", "eq": "c^2 = a^2 + b^2"},
+            {"name": "Law of Sines", "eq": "\\frac{\\sin\\angle A}{a} = \\frac{\\sin\\angle B}{b} = \\frac{\\sin\\angle C}{c} "},
+            {"name": "Law of Cosines", "eq": "c^2 = a^2 + b^2 -2ab\\cos\\angle C"}
+        ]}
+    ]},
+    {"name": "Physics", "menu": [
+        {"name": "Kinematics", "menu": [
+            {"name": "Velocity", "eq": "\\vec{\\bf v}_{avg} = \\frac{\\Delta\\vec{\\bf d}}{\\Delta t}"},
+            {"name": "Uniform Accelerated Motion", "menu": [
+                {"name": "Acceleration", "eq": "\\vec{\\bf a} = \\frac{\\vec{\\bf v}_f - \\vec{\\bf v}_i}{\\Delta t}"}
+            ]}
+        ]},
+        {"name": "Dynamics", "menu": [
+            {"name": "Newtons 2nd Law", "eq": "\\vec{\\bf F}_{net} = m\\vec{\\bf a}"},
+            {"name": "Friction", "eq": "\\mu = \\frac{F_f}{F_n}"}
+        ]},
+        {"name": "Universal Gravitation", "menu": [
+            {"name": "Gravitational Field", "eq": "g = \\frac{GM}{r^2}"},
+            {"name": "Gravitational Force", "eq": "F_g = \\frac{Gm_1m_2}{r^2}"},
+            {"name": "Gravitational Potential Energy", "eq": "E_g = \\frac{-Gm_1m_2}{r}"}
+        ]},
+        {"name": "Work & Energy", "menu": [
+            {"name": "Kinetic Energy", "eq": "E_k = \\frac{1}{2}mv^2"},
+            {"name": "Gravitational Potential Energy", "eq": "E_g = mgh"},
+            {"name": "Elastic Potential Energy", "eq": "E_{elas} = \\frac{1}{2}k(\\Delta L)^2"},
+            {"name": "Work", "eq": "W = \\Delta E_k = \\vec{\\bf F}\\cdot\\Delta\\vec{\\bf d} = \\left|\\vec{\\bf F}\\right| \\cdot \\left|\\Delta\\vec{\\bf d}\\right| \\cos\\Delta\\theta"}
+        ]}
+    ]},
+    {"name": "Chemistry", "menu": [
+        {"name": "Molar Mass", "eq": "n = \\frac{m}{M}"},
+        {"name": "Ideal Gas Law", "eq": "PV = nRT"}
+    ]}
+]
+}
